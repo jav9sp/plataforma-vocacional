@@ -1,0 +1,30 @@
+/* .item-menu {
+  display: flex;
+  list-style: none;
+  
+}
+
+.link-menu {
+  margin: 18px;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: capitalize;
+  transition: transform 250ms ease;
+
+  &:hover {
+    transform: scale(1.075);
+  }
+}
+
+@media (width <= 550px) {
+
+  .item-menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: radial-gradient(circle, rgba(238,174,174,1) 54%, rgba(151,233,148,1) 100%);
+  }
+
+} */
