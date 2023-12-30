@@ -1,0 +1,46 @@
+.hero-contenedor {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.hero {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.hero-descipcion, .hero-titulo {
+  text-align: center;
+  color: #f9f9f9;
+  text-shadow: 2px 3px 2px rgba(0, 0, 0, .8);
+}
+
+.hero-descipcion {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.hero-titulo {
+  font-size: 62px;
+  font-weight: 600;
+}
+
+@media (width <= 550px) {
+  
+  .hero-titulo {
+    font-size: 48px;
+  }
+  
+  .hero-descipcion {
+    font-size: 28px;
+  }
+
+}
