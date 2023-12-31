@@ -3,12 +3,16 @@ import HeaderGeneral from './componentes/Header';
 import HeroPrincipal from './componentes/HeroPrincipal';
 import Buscador from './componentes/Buscador';
 import TarjetaVocacional from './componentes/TarjetaVocacional';
+import FichaCarrera from './componentes/FichaCarrera'
 import Footer from './componentes/Footer';
 
 function App() {
   return (
     <div className="App">
-      <HeaderGeneral />
+
+      <FichaCarrera />
+
+      {/* <HeaderGeneral />
       
       <HeroPrincipal
         descripcion='Todo lo que necesitas para explorar tu vocación'
@@ -69,10 +73,8 @@ function App() {
           imagen='tecnologia'
           referencia='tecnologia' />
       </div>
-     
-      <div className="footer-contenedor">
-        <Footer />
-      </div>
+      
+      <Footer /> */}
     </div>
   );
 }

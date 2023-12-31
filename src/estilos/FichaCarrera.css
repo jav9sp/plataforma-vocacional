@@ -1,0 +1,107 @@
+.ficha-contenedor {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  font-size: 16px;
+}
+
+.ficha-carrera {
+  max-width: 1200px;
+  margin: 24px 0;
+}
+
+.ficha-carrera h1, h2, p {
+  margin: 24px 0;
+  line-height: 1.5;
+}
+
+.ficha-carrera h1 {
+  font-size: 2.5em;
+}
+
+.ficha-carrera h2 {
+  font-size: 1.5em;
+}
+
+.ficha-hero {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.hero-textos {
+  min-width: 320px;
+}
+
+.ficha-imagen {
+  height: auto;
+  max-width: 50%;
+  object-fit: cover;
+}
+
+.ficha-articulo {
+  background-color: #f6f6f6;
+}
+
+.ficha-textos {
+  display: flex;
+  gap: 24px;
+}
+
+.caja-principal {
+  flex: 2;
+}
+
+.caja-lateral {
+  flex: 1;
+}
+
+.barra-porcentaje {
+  height: 44px;
+  width: 220px;
+  border: solid 2px black;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.barra-color {
+  height: 100%;
+  width: 75%;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border: solid 1px grey;
+  border-radius: 4px;
+  background-image: linear-gradient(to right, yellow, green);
+}
+
+.valor-porcentaje {
+  font-weight: 900;
+}
+
+
+
+@media (width <= 760px) {
+  .ficha-hero {
+    flex-direction: column;
+  }
+  .hero-textos {
+    min-width: 100%;
+    margin: 0;
+  }
+
+  .ficha-imagen {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .ficha-textos {
+    flex-direction: column;
+    gap: 0px;
+  }
+}

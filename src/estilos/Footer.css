@@ -1,3 +1,11 @@
+.footer-contenedor {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #454545;
+}
+
 .footer {
     max-width: 1200px;
     padding: 5px 25px;
