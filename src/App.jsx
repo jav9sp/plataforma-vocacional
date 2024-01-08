@@ -12,7 +12,7 @@ function App() {
 
       <FichaCarrera />
 
-      {/* <HeaderGeneral />
+      <HeaderGeneral />
       
       <HeroPrincipal
         descripcion='Todo lo que necesitas para explorar tu vocación'
@@ -74,7 +74,7 @@ function App() {
           referencia='tecnologia' />
       </div>
       
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }

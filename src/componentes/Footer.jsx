@@ -1,5 +1,3 @@
-import React from "react";
-import ItemMenu from "./ItemMenu";
 import '../estilos/Footer.css'
 
 const Footer = () => {
