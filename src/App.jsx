@@ -3,18 +3,29 @@ import HeaderGeneral from './componentes/Header';
 import HeroPrincipal from './componentes/HeroPrincipal';
 import Buscador from './componentes/Buscador';
 import TarjetaVocacional from './componentes/TarjetaVocacional';
+import AreaVocacional from './componentes/AreaVocacional';
 import FichaCarrera from './componentes/FichaCarrera'
 import Footer from './componentes/Footer';
 
 function App() {
+  
   return (
     <div className="App">
 
-      <FichaCarrera />
+      
+      {/* <div className="contenedor-area-vocacional">
+        <AreaVocacional />
+      </div> */}
 
       <HeaderGeneral />
+
+      <AreaVocacional 
+        titulo='Administración de Empresas'
+        descripcion='Descripción'
+        imagen='administracion'
+      />
       
-      <HeroPrincipal
+      {/* <HeroPrincipal
         descripcion='Todo lo que necesitas para explorar tu vocación'
         titulo='¡Te ayudo a elegir!'
         imagen='hero.jpg' 
@@ -72,9 +83,9 @@ function App() {
           titulo='Tecnología de la Información'
           imagen='tecnologia'
           referencia='tecnologia' />
-      </div>
+      </div> */}
       
-      <Footer />
+      <Footer /> 
     </div>
   );
 }

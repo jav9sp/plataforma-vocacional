@@ -11,22 +11,26 @@
 
   transition: transform 250ms ease;
 
-  transform: translateX(106%);
-
   border: solid 1px rgba(0, 0, 0, .2);
 
   background-color: #fff;
 }
 
-.mostrar-header {
-  transform: translateX(0)
+.cerrar {
+  transform: translateX(106%);
 }
 
-.desplegar-menu {
+.abrir {
+  transform: translateX(0%);
+}
+
+.etiqueta-menu {
   position: absolute;
   z-index: 80;
   top: 24px;
-  left: -68px;
+  left: -69px;
+
+  width: 69px;
 
   text-align: center;
   color: #424242;
@@ -42,13 +46,13 @@
 
   border-top: solid 1px rgba(0, 0, 0, .2);
 
-  transition: transform 300ms ease;
 }
 
 .flecha-header {
   font-size: 16px;
   font-weight: 600;
   margin: 0;
+  overflow: hidden;
 }
 
 @media (width <= 550px) {
@@ -116,9 +120,17 @@ i {
 }
 
 .submenu {
-  height: 0;
   transition: height 300ms ease;
   padding: 0 0 0 12px;
+}
+
+.ocultar {
+  height: 0;
+}
+
+/* todo: tengo que encontrar cómo ajustar el height de manera automática */
+.desplegar {
+  height: 130px;
 }
 
 .item-submenu {
@@ -129,7 +141,9 @@ i {
   }
 }
 
-.link-menu, .link-submenu {
+.texto-item-menu, 
+.link-submenu {
+  margin: 4px;
   text-decoration: none;
   color: #424242;
 }

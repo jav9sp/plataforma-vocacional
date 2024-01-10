@@ -9,7 +9,7 @@ const TarjetaVocacional = ({ enlace, titulo, imagen, referencia }) => {
       </a>
       <img 
         src={require(`../imagenes/${imagen}.jpg`)} 
-        alt={`Area vocaional de ${referencia}`}
+        alt={`Area vocacional de ${referencia}`}
         className="imagen-tarjeta" />
     </div>
   )
