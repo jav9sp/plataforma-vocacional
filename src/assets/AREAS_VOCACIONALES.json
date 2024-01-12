@@ -1,68 +1,79 @@
 [
   {
+    "id" : 1,
     "titulo" : "Administración de empresas y Contabilidad",
-    "imagen" : "administracion",
-    "nombre" : "administración",
-    "to" : "/areas/administracion"
+    "imagen" : "../images/administracion.jpg",
+    "nombre" : "administracion",
+    "enlace" : "/areas/administracion"
   },
   {
+    "id" : 2,
     "titulo" : "Agricultura y Silvicultura",
-    "imagen" : "agricultura",
+    "imagen" : "../images/agricultura.jpg",
     "nombre" : "agricultura",
-    "to" : "/areas/agricultura"
+    "enlace" : "/areas/agricultura"
   },
   {
+    "id" : 3,
     "titulo" : "Ciencias Naturales y Matemática",
-    "imagen" : "ciencias",
+    "imagen" : "../images/ciencias.jpg",
     "nombre" : "ciencias",
-    "to" : "/areas/ciencias"
+    "enlace" : "/areas/ciencias"
   },
   {
+    "id" : 4,
     "titulo" : "Educación",
-    "imagen" : "educacion",
-    "nombre" : "educación",
-    "to" : "/areas/educacion"
+    "imagen" : "../images/educacion.jpg",
+    "nombre" : "educacion",
+    "enlace" : "/areas/educacion"
   },
   {
+    "id" : 5,
     "titulo" : "Arte y Humanidades",
-    "imagen" : "humanidades",
+    "imagen" : "../images/humanidades.jpg",
     "nombre" : "humanidades",
-    "to" : "/areas/humanidades"
+    "enlace" : "/areas/humanidades"
   },
   {
+    "id" : 6,
     "titulo" : "Ingeniería",
-    "imagen" : "ingenieria",
-    "nombre" : "ingeniería",
-    "to" : "/areas/ingenieria"
+    "imagen" : "../images/ingeniería.jpg",
+    "nombre" : "ingenieria",
+    "enlace" : "/areas/ingenieria"
   },
   {
+    "id" : 7,
     "titulo" : "Salud",
-    "imagen" : "salud",
+    "imagen" : "../images/salud.jpg",
     "nombre" : "salud",
-    "to" : "/areas/salud"
+    "enlace" : "/areas/salud"
   },
   {
+    "id" : 8,
     "titulo" : "Seguridad y FF.AA.",
-    "imagen" : "seguridad",
+    "imagen" : "../images/seguridad.jpg",
     "nombre" : "seguridad",
-    "to" : "/areas/seguridad"
+    "enlace" : "/areas/seguridad"
   },
   {
+    "id" : 9,
     "titulo" : "Servicios",
-    "imagen" : "servicios",
+    "imagen" : "../images/servicios.jpg",
     "nombre" : "servicios",
-    "to" : "/areas/servicios"
+    "enlace" : "/areas/servicios"
   },
   {
+    "id" : 10,
     "titulo" : "Ciencias Sociales",
-    "imagen" : "sociales",
+    "imagen" : "../images/sociales.jpg",
     "nombre" : "sociales",
-    "to" : "/areas/sociales"
+    "enlace" : "/areas/sociales"
   },
   {
+    "id" : 11,
     "titulo" : "Tecnología de la Información",
-    "imagen" : "tecnologia",
-    "nombre" : "tecnología",
-    "to" : "/areas/tecnologia"
+    "imagen" : "../images/tecnologia.jpg",
+    "nombre" : "tecnologia",
+    "enlace" : "/areas/tecnologia"
   }
 ]

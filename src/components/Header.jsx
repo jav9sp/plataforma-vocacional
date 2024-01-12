@@ -30,8 +30,6 @@ const HeaderGeneral = function() {
     }));
   }
 
-  console.log(clase)
-
   return (
     <header className={`header ${clase}`}>
       <div 

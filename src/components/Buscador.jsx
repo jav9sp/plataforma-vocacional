@@ -19,7 +19,7 @@ const Buscador = function() {
           value={busqueda}
           onChange={ (e) => setBusqueda(e.target.value) } />
         <label htmlFor="buscador">
-          <i class="fa-solid fa-magnifying-glass input-icono"></i>
+          <i className="fa-solid fa-magnifying-glass input-icono"></i>
         </label>
       </div>
     </div>

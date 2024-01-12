@@ -7,16 +7,16 @@ const Footer = () => {
           <div className="footer-redes">
             <h4 className="footer-redes-titulo">¡No olvides seguirnos!</h4>
             <a href="https://www.instagram.com/paceucsc/">
-              <i class="fa-brands fa-instagram"></i>
+              <i className="fa-brands fa-instagram"></i>
             </a>
             <a href="https://www.facebook.com/paceucsc">
-              <i class="fa-brands fa-facebook"></i>
+              <i className="fa-brands fa-facebook"></i>
             </a>
             <a href="https://www.tiktok.com/@paceucsc">
-              <i class="fa-brands fa-tiktok"></i>
+              <i className="fa-brands fa-tiktok"></i>
             </a>
             <a href="https://www.youtube.com/@programapaceucsc6650">
-              <i class="fa-brands fa-youtube"></i>
+              <i className="fa-brands fa-youtube"></i>
             </a>
           </div>
         <p>

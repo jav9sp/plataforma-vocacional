@@ -1,16 +1,13 @@
 import React from "react";
 import '../styles/HeroPrincipal.css'
-const HeroPrincipal = function( { descripcion, titulo, imagen } ) {
+
+const HeroPrincipal = function() {
 
   return (
-    <div 
-      className="hero-contenedor" 
-      style={{ 
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${require(`../images/${imagen}`)})`
-      }} >
+    <div className="hero-contenedor" >
       <div className="hero">
-        <p className="hero-descripcion">{descripcion}</p>
-        <h1 className="hero-titulo">{titulo}</h1>
+        <p className="hero-descripcion">Todo lo que necesitas para encontrar tu vocación</p>
+        <h1 className="hero-titulo">¡Te ayudo a elegir!</h1>
       </div>
     </div>
   )
