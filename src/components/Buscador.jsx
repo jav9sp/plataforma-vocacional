@@ -1,5 +1,5 @@
 import React from 'react';
-import '../estilos/Buscador.css';
+import '../styles/Buscador.css';
 import { useState, useEffect } from 'react';
 
 const Buscador = function() {

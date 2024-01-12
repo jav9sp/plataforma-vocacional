@@ -1,4 +1,4 @@
-import '../estilos/TarjetaCarrera.css'
+import '../styles/TarjetaCarrera.css'
 
 const TarjetaResultado = ({ nombre, institucion, tipo, sedes }) => {
   return (

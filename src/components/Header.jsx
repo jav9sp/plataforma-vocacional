@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import '../estilos/Header.css';
+import '../styles/Header.css';
 
 // todo: separar los elementos más pequeños en componentes
 
@@ -43,7 +43,7 @@ const HeaderGeneral = function() {
       <div className="logo-contenedor">
         <img 
           className="imagen-logo"
-          src={require(`../imagenes/logo pace.png`)}
+          src={require(`../images/logo pace.png`)}
           alt="" />
       </div>
 

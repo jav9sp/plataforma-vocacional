@@ -1,0 +1,68 @@
+[
+  {
+    "titulo" : "Administración de empresas y Contabilidad",
+    "imagen" : "administracion",
+    "nombre" : "administración",
+    "to" : "/areas/administracion"
+  },
+  {
+    "titulo" : "Agricultura y Silvicultura",
+    "imagen" : "agricultura",
+    "nombre" : "agricultura",
+    "to" : "/areas/agricultura"
+  },
+  {
+    "titulo" : "Ciencias Naturales y Matemática",
+    "imagen" : "ciencias",
+    "nombre" : "ciencias",
+    "to" : "/areas/ciencias"
+  },
+  {
+    "titulo" : "Educación",
+    "imagen" : "educacion",
+    "nombre" : "educación",
+    "to" : "/areas/educacion"
+  },
+  {
+    "titulo" : "Arte y Humanidades",
+    "imagen" : "humanidades",
+    "nombre" : "humanidades",
+    "to" : "/areas/humanidades"
+  },
+  {
+    "titulo" : "Ingeniería",
+    "imagen" : "ingenieria",
+    "nombre" : "ingeniería",
+    "to" : "/areas/ingenieria"
+  },
+  {
+    "titulo" : "Salud",
+    "imagen" : "salud",
+    "nombre" : "salud",
+    "to" : "/areas/salud"
+  },
+  {
+    "titulo" : "Seguridad y FF.AA.",
+    "imagen" : "seguridad",
+    "nombre" : "seguridad",
+    "to" : "/areas/seguridad"
+  },
+  {
+    "titulo" : "Servicios",
+    "imagen" : "servicios",
+    "nombre" : "servicios",
+    "to" : "/areas/servicios"
+  },
+  {
+    "titulo" : "Ciencias Sociales",
+    "imagen" : "sociales",
+    "nombre" : "sociales",
+    "to" : "/areas/sociales"
+  },
+  {
+    "titulo" : "Tecnología de la Información",
+    "imagen" : "tecnologia",
+    "nombre" : "tecnología",
+    "to" : "/areas/tecnologia"
+  }
+]

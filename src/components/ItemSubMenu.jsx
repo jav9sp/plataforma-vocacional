@@ -1,5 +1,5 @@
 import React from "react";
-import '../estilos/ItemSubMenu.css'
+import '../styles/ItemSubMenu.css'
 
 const ItemSubMenu = ({enlace, nombre}) => {
   return (

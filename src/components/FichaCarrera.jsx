@@ -1,5 +1,5 @@
 import React from 'react';
-import '../estilos/FichaCarrera.css';
+import '../styles/FichaCarrera.css';
 
 const FichaCarrera = function() {
   return (
@@ -16,7 +16,7 @@ const FichaCarrera = function() {
             </p>
           </div>
 
-          <img src={require(`../imagenes/ciencias.jpg`)} alt="" className="ficha-imagen" />
+          <img src={require(`../images/ciencias.jpg`)} alt="" className="ficha-imagen" />
         </section>
 
         <article className="ficha-articulo">

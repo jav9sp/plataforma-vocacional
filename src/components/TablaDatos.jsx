@@ -1,6 +1,6 @@
 import { useReactTable, getCoreRowModel, flexRender, getPaginationRowModel, getSortedRowModel, getFilteredRowModel } from "@tanstack/react-table";
 import data from "../assets/MOCK_DATA.json";
-import '../estilos/TablaDatos.css'
+import '../styles/TablaDatos.css'
 import { useState } from "react";
 
 

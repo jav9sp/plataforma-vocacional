@@ -1,11 +1,13 @@
 import './App.css';
-import HeaderGeneral from './componentes/Header';
-import HeroPrincipal from './componentes/HeroPrincipal';
-import Buscador from './componentes/Buscador';
-import TarjetaVocacional from './componentes/TarjetaVocacional';
-import AreaVocacional from './componentes/AreaVocacional';
-import FichaCarrera from './componentes/FichaCarrera'
-import Footer from './componentes/Footer';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import HeaderGeneral from './components/Header';
+import HeroPrincipal from './components/HeroPrincipal';
+import Buscador from './components/Buscador';
+import TarjetaVocacional from './components/TarjetaVocacional';
+import AreaVocacional from './components/AreaVocacional';
+import FichaCarrera from './components/FichaCarrera'
+import Footer from './components/Footer';
+import './assets/AREAS_VOCACIONALES.json'
 
 function App() {
   
@@ -31,7 +33,7 @@ function App() {
         imagen='hero.jpg' 
       />
 
-      <Buscador />
+      <Buscador /> */}
 
       <div className="contenedor-textos">
         <h2>¿Qué área vocacional te gustaría conocer?</h2>
@@ -42,48 +44,48 @@ function App() {
           enlace='https://www.google.cl'
           titulo='Administración de empresas y contabilidad'
           imagen='administracion'
-          referencia='administracion' />
+          nombre='administracion' />
         <TarjetaVocacional 
           titulo='Agricultura y Silvicultura'
           imagen='agricultura'
-          referencia='agricultura' />
+          nombre='agricultura' />
         <TarjetaVocacional 
           titulo='Ciencias Naturales y Matemática'
           imagen='ciencias'
-          referencia='ciencias' />
+          nombre='ciencias' />
         <TarjetaVocacional 
           titulo='Educación'
           imagen='educacion'
-          referencia='educacion' />
+          nombre='educacion' />
         <TarjetaVocacional 
           titulo='Arte y Humanidades'
           imagen='humanidades'
-          referencia='humanidades' />
+          nombre='humanidades' />
         <TarjetaVocacional 
           titulo='Ingeniería'
           imagen='ingenieria'
-          referencia='ingenieria' />
+          nombre='ingenieria' />
         <TarjetaVocacional 
           titulo='Salud'
           imagen='salud'
-          referencia='salud' />
+          nombre='salud' />
         <TarjetaVocacional 
           titulo='Seguridad y FF.AA.'
           imagen='seguridad'
-          referencia='seguridad' />
+          nombre='seguridad' />
         <TarjetaVocacional 
           titulo='Servicios'
           imagen='servicios'
-          referencia='servicios' />
+          nombre='servicios' />
         <TarjetaVocacional 
           titulo='Ciencias Sociales'
           imagen='sociales'
-          referencia='sociales' />
+          nombre='sociales' />
         <TarjetaVocacional 
           titulo='Tecnología de la Información'
           imagen='tecnologia'
-          referencia='tecnologia' />
-      </div> */}
+          nombre='tecnologia' />
+      </div>
       
       <Footer /> 
     </div>

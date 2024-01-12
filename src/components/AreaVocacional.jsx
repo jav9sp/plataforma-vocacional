@@ -1,6 +1,6 @@
 import TarjetaCarrera from './TarjetaCarrera';
 import TablaDatos from './TablaDatos';
-import '../estilos/AreaVocacional.css';
+import '../styles/AreaVocacional.css';
 
 
 function AreaVocacional({titulo, imagen, descripcion, competencias, }) {
@@ -12,7 +12,7 @@ function AreaVocacional({titulo, imagen, descripcion, competencias, }) {
       <div 
         className='hero-vocacional'
         style={{ 
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${require(`../imagenes/${imagen}.jpg`)})`
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${require(`../images/${imagen}.jpg`)})`
         }}
       >
     
