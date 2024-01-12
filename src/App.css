@@ -22,8 +22,8 @@ body {
 
 .contenedor-textos {
   max-width: 1200px;
-  margin: 40px auto;
-  padding: 12px;
+  margin: auto;
+  padding: 40px 12px;
 }
 
 .contenedor-textos h2 {
