@@ -1,5 +1,5 @@
 import React from 'react'
-import TarjetaVocacional from './TarjetaVocacional'
+import TarjetaArea from './TarjetaArea'
 import areas from '../assets/AREAS_VOCACIONALES.json'
 
 function Areas() {
@@ -8,7 +8,7 @@ function Areas() {
       <h2>¿Qué área vocacional te gustaría conocer?</h2>
       <div className="contenedor-tarjetas">
         {areas.map( area => (
-          <TarjetaVocacional
+          <TarjetaArea
             key={area.id}
             titulo={area.titulo}
             imagen={area.nombre}
