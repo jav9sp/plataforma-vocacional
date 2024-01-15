@@ -2,7 +2,7 @@ import React from "react";
 import '../styles/TarjetaVocacional.css';
 import { Link } from "react-router-dom";
 
-const TarjetaVocacional = ({ enlace, titulo, imagen, nombre }) => {
+const TarjetaArea = ({ enlace, titulo, imagen, nombre }) => {
   return (
     <div className="tarjeta">
       <Link to={enlace} rel="noopener noreferrer">
@@ -16,4 +16,4 @@ const TarjetaVocacional = ({ enlace, titulo, imagen, nombre }) => {
   )
 }
 
-export default TarjetaVocacional;
+export default TarjetaArea;

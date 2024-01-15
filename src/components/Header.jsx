@@ -1,6 +1,4 @@
-import React from 'react';
 import { useState } from 'react';
-import '../styles/Header.css';
 
 // todo: separar los elementos más pequeños en componentes
 

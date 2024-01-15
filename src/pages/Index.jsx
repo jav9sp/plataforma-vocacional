@@ -1,6 +1,5 @@
 import HeroPrincipal from '../components/HeroPrincipal'
 import Areas from '../components/Areas'
-import './Index.css'
 
 function Index() {
   return (
