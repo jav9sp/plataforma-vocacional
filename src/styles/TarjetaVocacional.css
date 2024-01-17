@@ -7,8 +7,6 @@
 
     overflow: hidden;
 
-    transition: filter 250ms ease;
-
     &:hover .imagen-tarjeta {
         transform: scale(1.075);
     }
@@ -19,7 +17,7 @@
     object-fit: cover;
     border-radius: 18px;
 
-    transition: transform 250ms ease, filter 250ms ease;
+    transition: transform 300ms ease;
 }
 
 .titulo-tarjeta {
