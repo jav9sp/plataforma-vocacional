@@ -6,6 +6,7 @@ import {
   getSortedRowModel, 
   getFilteredRowModel 
 } from "@tanstack/react-table";
+
 import { useState } from "react";
 
 
@@ -72,7 +73,7 @@ function TablaDatos({data, columns, filtering, setFiltering}) {
                 tabla.getRowModel().rows.map(row => (
                   <tr key={row.id}>
                     {row.getVisibleCells().map(cell => (
-                      <td>
+                      <td key={cell.id}>
                         {flexRender(cell.column.columnDef.cell, cell.getContext())}
                       </td>
                     ))}
@@ -85,19 +86,31 @@ function TablaDatos({data, columns, filtering, setFiltering}) {
         </div>
         
         <div className="contenedor-botones">
-          <button className="btn-paginacion" onClick={() => tabla.setPageIndex(0)}>
+          <button 
+            title="Primera página" 
+            className="btn-paginacion" 
+            onClick={() => tabla.setPageIndex(0)}>
             {`<<`}
           </button>
 
-          <button className="btn-paginacion" onClick={() => tabla.previousPage()}>
+          <button 
+            title="Anterior"
+            className="btn-paginacion" 
+            onClick={() => tabla.previousPage()}>
             {`<`}
           </button>
 
-          <button className="btn-paginacion" onClick={() => tabla.nextPage()}>
+          <button 
+            title="Siguiente"
+            className="btn-paginacion" 
+            onClick={() => tabla.nextPage()}>
             {`>`}
           </button>
 
-          <button className="btn-paginacion" onClick={() => tabla.setPageIndex(tabla.getPageCount() - 1)}>
+          <button 
+            title="Última página"
+            className="btn-paginacion" 
+            onClick={() => tabla.setPageIndex(tabla.getPageCount() - 1)}>
             {`>>`}
           </button>
         </div>

@@ -4,76 +4,109 @@
     "titulo" : "Administración de empresas y Contabilidad",
     "imagen" : "../images/administracion.jpg",
     "nombre" : "administracion",
-    "enlace" : "/areas/administracion"
+    "enlace" : "/areas/administracion",
+    "descripcion" : "",
+    "competencias" : "",
+    "campo" : []
   },
   {
     "id" : 2,
     "titulo" : "Agricultura y Silvicultura",
     "imagen" : "../images/agricultura.jpg",
     "nombre" : "agricultura",
-    "enlace" : "/areas/agricultura"
+    "enlace" : "/areas/agricultura",
+    "descripcion" : "",
+    "competencias" : "",
+    "campo" : []
   },
   {
     "id" : 3,
     "titulo" : "Ciencias Naturales y Matemática",
     "imagen" : "../images/ciencias.jpg",
     "nombre" : "ciencias",
-    "enlace" : "/areas/ciencias-y-matematica"
+    "enlace" : "/areas/ciencias-y-matematica",
+    "descripcion" : "",
+    "competencias" : "",
+    "campo" : []
   },
   {
     "id" : 4,
     "titulo" : "Educación",
     "imagen" : "../images/educacion.jpg",
     "nombre" : "educacion",
-    "enlace" : "/areas/educacion"
+    "enlace" : "/areas/educacion",
+    "descripcion" : "",
+    "competencias" : "",
+    "campo" : []
   },
   {
     "id" : 5,
     "titulo" : "Arte y Humanidades",
     "imagen" : "../images/humanidades.jpg",
     "nombre" : "humanidades",
-    "enlace" : "/areas/humanidades"
+    "enlace" : "/areas/humanidades",
+    "descripcion" : "",
+    "competencias" : "",
+    "campo" : []
   },
   {
     "id" : 6,
     "titulo" : "Ingeniería",
     "imagen" : "../images/ingeniería.jpg",
     "nombre" : "ingenieria",
-    "enlace" : "/areas/ingenieria"
+    "enlace" : "/areas/ingenieria",
+    "descripcion" : "",
+    "competencias" : "",
+    "campo" : []
   },
   {
     "id" : 7,
     "titulo" : "Salud",
     "imagen" : "../images/salud.jpg",
     "nombre" : "salud",
-    "enlace" : "/areas/salud"
+    "enlace" : "/areas/salud",
+    "descripcion" : "",
+    "competencias" : "",
+    "campo" : []
   },
   {
     "id" : 8,
     "titulo" : "Seguridad y FF.AA.",
     "imagen" : "../images/seguridad.jpg",
     "nombre" : "seguridad",
-    "enlace" : "/areas/seguridad"
+    "enlace" : "/areas/seguridad",
+    "descripcion" : "",
+    "competencias" : "",
+    "campo" : []
   },
   {
     "id" : 9,
     "titulo" : "Servicios",
     "imagen" : "../images/servicios.jpg",
     "nombre" : "servicios",
-    "enlace" : "/areas/servicios"
+    "enlace" : "/areas/servicios",
+    "descripcion" : "",
+    "competencias" : "",
+    "campo" : []
   },
   {
     "id" : 10,
     "titulo" : "Ciencias Sociales",
     "imagen" : "../images/sociales.jpg",
     "nombre" : "sociales",
-    "enlace" : "/areas/sociales"
+    "enlace" : "/areas/sociales",
+    "descripcion" : "",
+    "competencias" : "",
+    "campo" : []
   },
   {
     "id" : 11,
     "titulo" : "Tecnología de la Información",
     "imagen" : "../images/tecnologia.jpg",
     "nombre" : "tecnologia",
-    "enlace" : "/areas/tecnologia"
+    "enlace" : "/areas/tecnologia",
+    "descripcion" : "",
+    "competencias" : "",
+    "campo" : []
   }
 ]

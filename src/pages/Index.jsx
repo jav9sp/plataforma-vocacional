@@ -1,5 +1,5 @@
 import Hero from '../components/Hero'
-import Areas from '../components/Areas'
+import AreasVocacionales from '../components/AreasVocacionales'
 import Buscador from '../components/Buscador'
 
 import ImgHomeHero from '../images/hero.jpg'
@@ -20,7 +20,7 @@ function Index() {
 
       <Buscador />
 
-      <Areas />
+      <AreasVocacionales />
 
     </>
   )

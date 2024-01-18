@@ -1,4 +1,10 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
+
+import ItemSubMenu from './ItemSubMenu';
+import ItemsAreas from '../assets/AREAS_VOCACIONALES.json'
+
+import LogoPace from '../images/logo pace.png'
 
 // todo: separar los elementos más pequeños en componentes
 
@@ -37,15 +43,27 @@ const HeaderGeneral = function() {
         <p className="flecha-header">{texto}</p>
       </div>
       <div className="logo-contenedor">
-        <img 
-          className="imagen-logo"
-          src={require(`../images/logo pace.png`)}
-          alt="" />
+        <Link to='/'>
+          <img 
+            className="imagen-logo"
+            src={LogoPace}
+            alt="logo pace ucsc" />
+        </Link>
       </div>
 
       <nav className="nav">
 
         <ul className="menu">
+
+          <li className='item-menu'>
+            <div
+              className="menu-boton">
+              <i className="fa-solid fa-house"></i>
+              <Link className="texto-item-menu">
+                Inicio
+              </Link>
+            </div>
+          </li>
 
           <li className="item-menu">
             <div 
@@ -53,7 +71,7 @@ const HeaderGeneral = function() {
               className="menu-boton">
               <i className="fa-solid fa-graduation-cap"></i>
               <p className="texto-item-menu">
-                Estudiar
+                Áreas Vocacionales
               </p>
               <span className="flecha">{'>'}</span>
             </div>
@@ -61,47 +79,13 @@ const HeaderGeneral = function() {
             <ul 
               className={`submenu ${submenus.estudiar}`}
             >
-              <li className="item-submenu">
-                <a href="#" className="link-submenu">Dentro</a>
-              </li>
-              <li className="item-submenu">
-                <a href="#" className="link-submenu">Dentro</a>
-              </li>
-              <li className="item-submenu">
-                <a href="#" className="link-submenu">Dentro</a>
-              </li>
-              <li className="item-submenu">
-                <a href="#" className="link-submenu">Dentro</a>
-              </li>
-            </ul>
-          </li>
-
-          <li className="item-menu">
-            <div 
-              onClick={() => mostrarSubmenu('trabajar')}
-              className="menu-boton">
-              <i className="fa-solid fa-graduation-cap"></i>
-              <p className="texto-item-menu">
-                Trabajar
-              </p>
-              <span className="flecha">{'>'}</span>
-            </div>
-
-            <ul 
-              className={`submenu ${submenus.trabajar}`}
-            >
-              <li className="item-submenu">
-                <a href="#" className="link-submenu">Dentro</a>
-              </li>
-              <li className="item-submenu">
-                <a href="#" className="link-submenu">Dentro</a>
-              </li>
-              <li className="item-submenu">
-                <a href="#" className="link-submenu">Dentro</a>
-              </li>
-              <li className="item-submenu">
-                <a href="#" className="link-submenu">Dentro</a>
-              </li>
+              {ItemsAreas.map(item => (
+                <ItemSubMenu 
+                  key={item.id}
+                  enlace={item.enlace}
+                  nombre={item.titulo}
+                />
+              ))}
             </ul>
           </li>
 

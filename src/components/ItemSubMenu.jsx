@@ -1,10 +1,11 @@
 import React from "react";
-import '../styles/ItemSubMenu.css'
+import { Link } from "react-router-dom";
+
 
 const ItemSubMenu = ({enlace, nombre}) => {
   return (
     <li className="item-submenu">
-      <a href={enlace} className="link-submenu">{nombre}</a>
+      <Link to={enlace} className="link-submenu">{nombre}</Link>
     </li>
   )
 };

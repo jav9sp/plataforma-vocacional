@@ -1,0 +1,109 @@
+body {
+  background-color: #ededff;
+}
+
+.canva-ico {
+  max-width: 140px;
+}
+
+.descripcion-area {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-block: 44px;
+}
+
+.descripcion-area p {
+  font-size: 24px;
+  text-align: center;
+}
+
+.area-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-block: 24px;
+  gap: 44px;
+}
+
+.area-competencias,
+.area-campo {
+  width: 100%;
+}
+
+.subtitulo {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.competencia-area {
+  margin-block: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 44px
+}
+
+.parrafo {
+  margin-block: 16px;
+  font-weight: 600;
+}
+
+.resaltado {
+  color: blueviolet;
+  font-weight: bold;
+}
+
+.area-cita {
+  margin: 44px auto;
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  gap: 44px;
+}
+
+.imagen-cita {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+
+.sombra {
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, .5);
+}
+
+cite {
+  font-weight: 800;
+  font-size: 22px;
+}
+
+.cita-nombre {
+  margin-top: 18px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+
+@media (width <= 700px) {
+  .descripcion-area p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .area-info {
+    flex-direction: column;
+  }
+  .area-cita {
+    gap: 22px;
+  }
+  .imagen-cita {
+    width: 200px;
+    height: 200px;
+  }
+  cite {
+    font-size: 18px;
+  }
+  .cita-nombre {
+    font-size: 14px;
+  }
+}
