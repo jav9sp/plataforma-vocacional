@@ -1,6 +1,8 @@
 import Hero from "../../components/Hero"
 import TablaDatos from '../../components/TablaDatos'
 
+import PreguntaFrecuente from "../../components/PreguntaFrecuente"
+
 import AdmImg from '../../images/administracion.jpg'
 import data from '../../assets/MOCK_DATA.json'
 
@@ -46,9 +48,9 @@ function Administracion() {
             
             <p className="parrafo">El área de administración está presente en toda organización, sea pública o privada. Las posibilidades para desempeñarse profesionalmente en ésta área son muchísimas y dependerán del perfil que tengas y lo que te gustaría lograr personalmente.</p>
             
-            <p className="parrafo">Dentro de las principales sub áreas de la Administración y Negocios podrás encontrar la <span className="resaltado">Gestión Estratégica</span> las <span className="resaltado">Finanzas</span> el <span className="resaltado">Marketing y Ventas</span>, <span className="resaltado">Recursos Humanos</span>, <span className="resaltado">Operaciones y Logística</span> el <span className="resaltado">Emprendimiento y Startups</span> la <span className="resaltado">Administración Pública</span> la <span className="resaltado">Ética y Responsabilidad Social Empresarial</span> y la <span className="resaltado">Consultoría de Negocios</span>.</p>
+            <p className="parrafo">Dentro de las principales sub áreas de la Administración y Negocios podrás encontrar la <span className="resaltado">Gestión Estratégica</span>, las <span className="resaltado">Finanzas y Contabilidad</span>, el <span className="resaltado">Marketing y Ventas</span>, <span className="resaltado">Recursos Humanos</span>, <span className="resaltado">Operaciones y Logística</span>, el <span className="resaltado">Emprendimiento y Startups</span>, la <span className="resaltado">Administración Pública</span>, la <span className="resaltado">Ética y Responsabilidad Social Empresarial</span> y la <span className="resaltado">Consultoría de Negocios</span>.</p>
 
-            <p className="parrafo">Claramente, estudiar una carrera no te prepara para todas las áreas que te mencionamos. Lo más común es que una carrera, ya sea técnica o profesional, te especialice en una de esas áreas.</p>
+            <p className="parrafo">Claramente, estudiar una carrera no te prepara para todas las áreas que te mencionamos. Lo más común es que una carrera, ya sea técnica o profesional, te especialice en una de ellas.</p>
 
             <p className="parrafo">¿A cuál deberías entrar entonces? <span className="resaltado">Identificar tus habilidades, competencias y objetivos personales te ayudará a tomar esa decisión</span>.</p>
 
@@ -60,7 +62,18 @@ function Administracion() {
                 <h2 className="subtitulo">Competencias para esta área</h2>
 
                 <div className="competencia-area">
+                  <img 
+                    className="canva-ico"
+                    src={require('../../images/area-administracion/7.png')} 
+                    alt="" />
+                  <div className="competencia-textos">
+                    <p className="parrafo">Mantener orden en la información, el papeleo en la oficina, tener capacidad de gestionar trámites de diverso índole en la empresa. Todo eso requiere una alta capacidad de <span className="resaltado">Organización</span>.</p>
+                    
+                    
+                  </div>
+                </div>
 
+                <div className="competencia-area">
                   <div className="competencia-textos">
                     <p className="parrafo">¿Cómo lograr que una empresa crezca? ¿Cómo lograr mayores ventas y resolver posibles problemas antes que aparezcan?</p>
                     
@@ -127,7 +140,7 @@ function Administracion() {
           </div>
 
           <div className="area-tabla">
-            <h2>Carreras técnicas de esta área</h2>
+            <h2 className="subtitulo">Carreras técnicas de esta área</h2>
 
             <TablaDatos 
               key={data.id}
@@ -135,7 +148,7 @@ function Administracion() {
               columns={columns}
             />
 
-            <h2>Carreras profesionales de esta área</h2>
+            <h2 className="subtitulo">Carreras profesionales de esta área</h2>
 
             <TablaDatos 
               key={data.id}
@@ -145,6 +158,25 @@ function Administracion() {
 
 
           </div>
+
+          <div>
+            <h2 className="subtitulo">Preguntas frecuentes sobre esta área</h2>
+
+            <div className="faqs">
+              <PreguntaFrecuente 
+                pregunta='¿Necesito saber mucha matemática para trabajar en ésta área?'
+                respuesta='Se puede decir que esto es un mito, ya que no es necesario tener mucha habilidad matemática. Sin embargo, desarrollarlas te ayudará a desenvolverte mejor profesionalmente.'
+              />
+              
+              <PreguntaFrecuente 
+                pregunta='¿Necesito saber mucha matemática para trabajar en ésta área?'
+                respuesta='Se puede decir que esto es un mito, ya que no es necesario tener mucha habilidad matemática. Sin embargo, desarrollarlas te ayudará a desenvolverte mejor profesionalmente.'
+              />
+
+            </div>
+
+          </div>
+
         </article>
       </div>
     </>

@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import TablaDatos from './TablaDatos';
 
-import data from '../assets/MOCK_DATA.json';
+import data from '../assets/BBDD.json';
 import { tablaGeneral as columns } from '../utilities/dataTablas.js';
 
 const Buscador = function() {

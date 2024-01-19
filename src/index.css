@@ -442,3 +442,48 @@ tr:nth-child(even) {
     overflow-x: scroll;
   }
 }
+
+/**** Caja FAQ's ****/
+
+.faqs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px
+}
+
+.faq-contenedor {
+  width: 100%;
+  border-radius: 16px;
+  background-color: white;
+  padding: 12px 24px;
+  overflow: hidden;
+}
+
+.faq-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.faq-btn {
+  font-size: 44px;
+  width: 40px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.faq-body {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  padding-bottom: 16px;
+  transition: max-height 500ms ease, opacity 500ms ease;
+}
+
+.abrir {
+  max-height: 300px;
+  opacity: 1;
+}
