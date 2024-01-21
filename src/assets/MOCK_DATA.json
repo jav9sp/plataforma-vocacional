@@ -6,7 +6,8 @@
     "tipo": "Aquamarine",
     "requisitos": false,
     "jornada": 1,
-    "puntajeCorte": 924
+    "puntajeCorte": 924,
+    "enlace" : "/carreras/kinesiologia"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "tipo": "Violet",
     "requisitos": true,
     "jornada": 1,
-    "puntajeCorte": 691
+    "puntajeCorte": 691,
+    "enlace" : "/carreras/medicina"
   },
   {
     "id": 3,

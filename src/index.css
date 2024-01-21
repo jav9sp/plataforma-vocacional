@@ -483,7 +483,20 @@ tr:nth-child(even) {
   transition: max-height 500ms ease, opacity 500ms ease;
 }
 
-.abrir {
+.mostrar-respuesta {
   max-height: 300px;
   opacity: 1;
+}
+
+.centrar-celda {
+  text-align: center;
+}
+
+.link-ficha {
+  text-decoration: none;
+  font-size: 18px;
+  color: #753ebd;
+  &:hover {
+    color: #b077fb;
+  }
 }

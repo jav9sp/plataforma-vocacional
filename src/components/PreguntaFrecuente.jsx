@@ -7,7 +7,7 @@ const PreguntaFrecuente = ({pregunta, respuesta}) => {
 
   function manejarClic() {
     setAbrir(abrir === '+' ? '-' : '+')
-    setCaja(caja === '' ? 'abrir' : '')
+    setCaja(caja === '' ? 'mostrar-respuesta' : '')
   } 
 
   return (

@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/FichaCarrera.css';
 
+//* acá debo recuperar los datos de la base de datos, reemplazar todos los textos por props 
+
 const FichaCarrera = function() {
   return (
 

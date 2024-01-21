@@ -17,6 +17,10 @@ export const tablaGeneral = [
   {
     header: "Sede",
     accessorKey: "sede"
+  },
+  {
+    header: "Ver más",
+    accessorKey: "boton",
   }
 ];
 

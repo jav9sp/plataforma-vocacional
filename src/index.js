@@ -15,6 +15,7 @@ import Seguridad from './pages/areas/Seguridad';
 import Servicios from './pages/areas/Servicios';
 import Sociales from './pages/areas/Sociales';
 import Tecnologia from './pages/areas/Tecnologia';
+import FichaCarrera from './components/FichaCarrera';
 
 import './index.css';
 
@@ -25,7 +26,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Index />
+        element: <FichaCarrera />
       },
       {
         path: '/areas/administracion',

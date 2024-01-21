@@ -1,29 +1,45 @@
+import { useMemo } from "react"
+
 import Hero from "../../components/Hero"
 import TablaDatos from '../../components/TablaDatos'
-
+import EnlaceFicha from "../../components/EnlaceFicha"
 import PreguntaFrecuente from "../../components/PreguntaFrecuente"
 
 import AdmImg from '../../images/administracion.jpg'
 import data from '../../assets/MOCK_DATA.json'
 
 import '../../styles/AreasVocacionales.css'
-
-const columns = [
-  {
-    header: "N°",
-    accessorKey: "id"
-  },
-  {
-    header: "Carrera",
-    accessorKey: "carrera"
-  },
-  {
-    header: "Institución",
-    accessorKey: "institucion"
-  }
-]
-
+  
 function Administracion() {
+
+  const columns = useMemo(
+    () => [
+      {
+        header: "N°",
+        accessorKey: "id"
+      },
+      {
+        header: "Carrera",
+        accessorKey: "carrera"
+      },
+      {
+        header: "Institución",
+        accessorKey: "institucion"
+      },
+      {
+        header: "Ver ficha",
+        accessorKey: "enlace",
+        cell: ({ row }) => (
+
+          <div className="centrar-celda">
+            {row.original.enlace ? <EnlaceFicha to={row.original.enlace} /> : 'No disponible'}
+          </div>
+        )
+      }
+    ]
+  )
+
+
   return (
     <>
       <Hero 
