@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,12 +7,9 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Josefin Sans', sans-serif;
   color: #454545;
+  font-size: 18px;
 }
 
 h2 {
@@ -120,9 +119,9 @@ h2 {
   height: 40px;
   padding: 12px;
   margin-right: 4px;
-  border: none;
+  border: solid 1px grey;
   border-radius: 6px;
-  background-color: #f2f2f2;
+  background-color: white;
 }
 
 label {
@@ -257,13 +256,6 @@ i {
   margin-right: auto;
 }
 
-.flecha {
-  margin-left: auto;
-  font-size: 20px;
-  font-weight: 600;
-  transition: transform 300ms ease;
-}
-
 .item-submenu {
   border-left: solid 2px #424242;
   overflow: hidden;
@@ -297,10 +289,8 @@ i {
   max-height: 0;
 }
 
-/* todo: tengo que encontrar cómo ajustar el height de manera automática */
-
 .desplegar {
-  max-height: 120px;
+  max-height: 160px;
   overflow-y: scroll;
 }
 
@@ -321,50 +311,6 @@ i {
 
 .mostrar .flecha {
   transform: rotate(90deg)
-}
-
-/**** Footer ****/
-
-.footer-contenedor {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #454545;
-}
-
-.footer {
-  max-width: 1200px;
-  padding: 5px 25px;
-  margin: auto;
-}
-
-.footer-redes {
-  padding: 25px;
-  text-align: center;
-}
-
-.footer-redes-titulo {
-  margin-bottom: 24px;
-  font-size: 34px;
-  color: #f1f1f1;
-}
-
-.footer-redes a i {
-  font-size: 42px;
-  margin: 16px;
-  color: #f1f1f1;
-  transition: color 250ms ease;
-
-  &:hover {
-      color: #753ebd;
-  }
-}
-
-footer p {
-  text-align: center;
-  color: #aaa;
-  font-size: 18px;
 }
 
 /**** Tabla de datos ****/

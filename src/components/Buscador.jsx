@@ -19,7 +19,6 @@ const Buscador = function() {
         
         <input 
           className='input-buscador' 
-          type="search" 
           placeholder='Intenta con "Salud", "Cosmetología"...'
           value={filtering}
           onChange={ e => setFiltering(e.target.value) } 

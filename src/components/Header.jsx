@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 
 import ItemSubMenu from './ItemSubMenu';
@@ -8,10 +8,11 @@ import LogoPace from '../images/logo pace.png'
 
 // todo: separar los elementos más pequeños en componentes
 
-const HeaderGeneral = function() {
+const Header = function() {
 
   const [texto, setTexto] = useState('Menú');
   const [clase, setClase] = useState('cerrar');
+  const menuRef = useRef();
 
   // ! tuve que poner los submenus en un objeto, no me gusta mucho pero funciona por ahora
   const [submenus, setSubmenus] = useState(
@@ -20,6 +21,19 @@ const HeaderGeneral = function() {
       trabajar: 'ocultar'
     }
   );
+
+  useEffect(() => {
+    let clicTarget = e => {
+      if(!menuRef.current.contains(e.target)) {
+        setTexto('Menú');
+        setClase('cerrar');
+      }
+    }
+
+    document.addEventListener('mousedown', clicTarget);
+
+    return () => {document.removeEventListener('mousedown', clicTarget)}
+  }, [])
 
   function manejarClic() {
     setTexto(texto === 'Menú' ? 'Cerrar' : 'Menú');
@@ -35,7 +49,10 @@ const HeaderGeneral = function() {
   }
 
   return (
-    <header className={`header ${clase}`}>
+    <header 
+      ref={menuRef}
+      className={`header ${clase}`}
+    >
       <div 
         className="etiqueta-menu"
         onClick={manejarClic}
@@ -73,7 +90,6 @@ const HeaderGeneral = function() {
               <p className="texto-item-menu">
                 Áreas Vocacionales
               </p>
-              <span className="flecha">{'>'}</span>
             </div>
 
             <ul 
@@ -95,4 +111,4 @@ const HeaderGeneral = function() {
   );
 };
 
-export default HeaderGeneral;
+export default Header;

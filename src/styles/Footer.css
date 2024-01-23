@@ -1,0 +1,66 @@
+
+.footer-contenedor {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #454545;
+}
+
+.footer {
+  max-width: 1200px;
+  padding: 5px 25px;
+  margin: auto;
+}
+
+.footer-info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.footer-fuentes {
+  flex: 3;
+  height: 100%;
+}
+
+.fuentes-texto {
+  font-size: 18px;
+  color: white;
+}
+
+.link-footer {
+  color: #e8b13b;
+  font-weight: 600;
+  font-size: 18px;
+  transition: color 250ms ease;
+
+  &:hover {
+      color: #f1f1f1;
+  }
+}
+
+.footer-redes {
+  flex: 2;
+  padding: 25px;
+  text-align: center;
+}
+
+.footer-redes a i {
+  font-size: 42px;
+  margin: 16px;
+  color: #e8b13b;
+  transition: color 250ms ease;
+
+  &:hover {
+      color: #f1f1f1;
+  }
+}
+
+.creditos {
+  text-align: center;
+  color: #aaa;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0;
+}

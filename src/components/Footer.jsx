@@ -1,10 +1,19 @@
+import '../styles/Footer.css'
 
 const Footer = () => {
+
+  const fecha = new Date();
+  const actualYear = fecha.getFullYear()
+
   return (
     <div className="footer-contenedor">
+
       <footer className="footer">
+
+        <div className="footer-info">
+
+          
           <div className="footer-redes">
-            <h4 className="footer-redes-titulo">¡No olvides seguirnos!</h4>
             <a href="https://www.instagram.com/paceucsc/">
               <i className="fa-brands fa-instagram"></i>
             </a>
@@ -18,9 +27,34 @@ const Footer = () => {
               <i className="fa-brands fa-youtube"></i>
             </a>
           </div>
-        <p>
-          Hecho con 💕 por el equipo de<br />Exploración Vocacional del PACE UCSC
-        </p>
+
+          <div className="footer-fuentes">
+            <p className='fuentes-texto'>
+              Toda la información en esta web ha sido recopilada desde los portales oficiales de cada institución,{` `}
+              <a 
+                className='link-footer'
+                href="https://mifuturo.cl/" target='_blank' 
+                rel="noopener noreferrer nofollow"
+              >
+                mifuturo.cl
+              </a>
+              {` `}y la {` `}
+              <a 
+                className='link-footer'
+                href="https://www.cnachile.cl/" target='_blank'
+                rel="noopener noreferrer nofollow"
+              >
+                cnachile.cl
+              </a>
+              .
+            </p>
+            <p className='fuentes-texto'>Información actualizada en Enero de 2024.</p>
+          </div>
+
+        </div>
+
+        <p className='creditos'>Sitio desarrollado con 💕 por el equipo de Exploración Vocacional</p>
+        <p className='creditos'>{`PACE UCSC ${actualYear}`}</p>
       </footer>
     </div>
   )

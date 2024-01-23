@@ -1,7 +1,7 @@
 [
   {
     "id" : 1,
-    "titulo" : "Administración de empresas y Contabilidad",
+    "titulo" : "Administración de Empresas y Derecho",
     "imagen" : "../images/administracion.jpg",
     "nombre" : "administracion",
     "enlace" : "/areas/administracion",
@@ -11,7 +11,7 @@
   },
   {
     "id" : 2,
-    "titulo" : "Agricultura y Silvicultura",
+    "titulo" : "Agricultura, Silvicultura, Pesca y Veterinaria",
     "imagen" : "../images/agricultura.jpg",
     "nombre" : "agricultura",
     "enlace" : "/areas/agricultura",
@@ -21,7 +21,7 @@
   },
   {
     "id" : 3,
-    "titulo" : "Ciencias Naturales y Matemática",
+    "titulo" : "Ciencias Naturales, Matemática y Estadística",
     "imagen" : "../images/ciencias.jpg",
     "nombre" : "ciencias",
     "enlace" : "/areas/ciencias-y-matematica",
@@ -51,7 +51,7 @@
   },
   {
     "id" : 6,
-    "titulo" : "Ingeniería",
+    "titulo" : "Ingeniería, Industria y Construcción",
     "imagen" : "../images/ingeniería.jpg",
     "nombre" : "ingenieria",
     "enlace" : "/areas/ingenieria",
@@ -61,7 +61,7 @@
   },
   {
     "id" : 7,
-    "titulo" : "Salud",
+    "titulo" : "Salud y Bienestar",
     "imagen" : "../images/salud.jpg",
     "nombre" : "salud",
     "enlace" : "/areas/salud",
@@ -71,7 +71,7 @@
   },
   {
     "id" : 8,
-    "titulo" : "Seguridad y FF.AA.",
+    "titulo" : "Seguridad y FF.AA",
     "imagen" : "../images/seguridad.jpg",
     "nombre" : "seguridad",
     "enlace" : "/areas/seguridad",
@@ -81,7 +81,7 @@
   },
   {
     "id" : 9,
-    "titulo" : "Servicios",
+    "titulo" : "Servicios Personales",
     "imagen" : "../images/servicios.jpg",
     "nombre" : "servicios",
     "enlace" : "/areas/servicios",
@@ -91,7 +91,7 @@
   },
   {
     "id" : 10,
-    "titulo" : "Ciencias Sociales",
+    "titulo" : "Ciencias Sociales, Periodismo e Información",
     "imagen" : "../images/sociales.jpg",
     "nombre" : "sociales",
     "enlace" : "/areas/sociales",
@@ -101,7 +101,7 @@
   },
   {
     "id" : 11,
-    "titulo" : "Tecnología de la Información",
+    "titulo" : "Tecnología de la Información y la Comunicación",
     "imagen" : "../images/tecnologia.jpg",
     "nombre" : "tecnologia",
     "enlace" : "/areas/tecnologia",

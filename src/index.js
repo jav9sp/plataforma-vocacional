@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import Layout from './components/Layout';
-import Index from './pages/Index';
+import Inicio from './pages/Inicio';
 import Administracion from './pages/areas/Administracion';
 import Agricultura from './pages/areas/Agricultura';
 import CienciasMatematica from './pages/areas/CienciasMatematica';
@@ -26,7 +26,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <FichaCarrera />
+        element: <Inicio />
       },
       {
         path: '/areas/administracion',
