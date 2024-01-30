@@ -38,13 +38,21 @@ const Footer = () => {
               >
                 mifuturo.cl
               </a>
-              {` `}y la {` `}
+              , {` `}
               <a 
                 className='link-footer'
                 href="https://www.cnachile.cl/" target='_blank'
                 rel="noopener noreferrer nofollow"
               >
                 cnachile.cl
+              </a>
+              {` `} y el portal {` `}
+              <a 
+                className='link-footer'
+                href="https://www.mineduc.cl/" target='_blank'
+                rel="noopener noreferrer nofollow"
+              >
+                mineduc.cl
               </a>
               .
             </p>
